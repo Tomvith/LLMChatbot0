@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pypdf2 = "==3.0.1"
+faiss-cpu = "==1.7.3"
+langchain = "==0.2.14"
+transformers = "==4.44.2"
+streamlit = "==1.37.1"
+langchain-community = "==0.2.12"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
